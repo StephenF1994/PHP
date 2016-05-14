@@ -1,15 +1,7 @@
 
-<?php  
 
 
-if(isset($_POST['submit'])) {						//if the submit button is clicked (name submit is part of POST variable)
 
-	$userName = $_POST['userName'];					//Putting the entered info into variables.
-	$userPassword= $_POST['userPassword'];
-
-echo "Hello " . $userName . " Welcome to the site. <br>" . "Your password is: " . $userPassword;
-
-}
 
 
 
@@ -22,7 +14,7 @@ echo "Hello " . $userName . " Welcome to the site. <br>" . "Your password is: " 
 
 
 
-?>
+
 
 
 
@@ -36,7 +28,7 @@ echo "Hello " . $userName . " Welcome to the site. <br>" . "Your password is: " 
 
 
 
-	<form   action="FormTutTwo.php" method="post"> <!-- action specifies where to send the data, method
+	<form   action="FormProcess.php" method="post"> <!-- action specifies where to send the data, method
 													specifies by which type. We want to 'post' to 'FormTutTwo -->
 
 			<input type="text" name = "userName" placeholder = "Enter name">
